@@ -14,4 +14,9 @@ public class Personne {
     public int getAge() {
         return age;
     }
+
+    @Override
+    public String toString() {
+        return "Nom: " + nom + ", Age: " + age;
+    }
 }
