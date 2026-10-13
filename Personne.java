@@ -17,7 +17,7 @@ public class Personne {
 
     @Override
     public String toString() {
-        return "Nom: " + nom + ", Age: " + age;
+        return "Nom --: " + nom + ", Age: " + age;
     }
 
     public static void main(String[] args) {
