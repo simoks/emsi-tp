@@ -19,4 +19,9 @@ public class Personne {
     public String toString() {
         return "Nom: " + nom + ", Age: " + age;
     }
+
+    public static void main(String[] args) {
+        Personne personne = new Personne("Alice", 30);
+        System.out.println(personne);
+    }
 }
