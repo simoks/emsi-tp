@@ -25,4 +25,8 @@ public class Personne {
         System.out.println(personne);
 
     }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
 }
