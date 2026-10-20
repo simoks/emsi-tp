@@ -17,12 +17,11 @@ public class Personne {
 
     @Override
     public String toString() {
-        return "Name: " + nom + ", Age: " + age;
+        return "Nom --: " + nom + ", Age: " + age;
     }
 
     public static void main(String[] args) {
         Personne personne = new Personne("Alice", 30);
         System.out.println(personne);
-
     }
 }
